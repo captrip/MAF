@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional
 from MAFI.subgraphs.subgraph_registry import SubgraphRegistry
-from MAFI.subgraphs.registry_persistence import SubgraphPersistence
+from MAFI.subgraphs.registry_persistence import SubgraphRegistryPersistance as SubgraphPersistence
 
 class RegistrySync:
     def __init__(self, db_path: str = "subgraph_registry.db"):
